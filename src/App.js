@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-        <h1>Supa Smoothies</h1>
-        <Link to="/">Home</Link>
-        <Link to="/create">Create New Smoothie</Link>
+        <h1>تطبق المهام السريعة</h1>
+        <Link to="/">كل المهام</Link>
+        <Link to="/create">إضافة مهمة</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
